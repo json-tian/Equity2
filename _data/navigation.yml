@@ -1,12 +1,10 @@
 # main links
 main:
-  - title: "About"
-    url: /about/
-  - title: "Recent Posts"
-    url: /recent-posts/
   - title: "Reports"
     url: /reports/
   - title: "Thought Pieces"
     url: /thought-pieces/
+  - title: "About"
+    url: /about/
   - title: "Join Us"
     url: /join-us/

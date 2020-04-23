@@ -28,7 +28,7 @@ feature_row2:
 
 feature_row4:
   - title: "Jason Tian"
-    position: "Web Operations"
+    position: "Site Operations"
     excerpt: 'A short biography talking about what year you are in, what program, what school, some hobbies, idk. This is just some sample text for you to see how it would look like with your paragraph here. Remember to keep it short!'
 
 feature_row5:

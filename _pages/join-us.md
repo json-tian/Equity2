@@ -1,8 +1,8 @@
 ---
 layout: archive
-title: "Sample Page"
+title: "Join Us"
 permalink: /join-us/
-date: 2016-02-24T03:02:20+00:00
+date: 2020-04-23
 ---
 
-Join us :D
+TBD

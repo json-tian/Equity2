@@ -11,6 +11,7 @@ tags:
   - Amazon
   - Oil
   - Stonks
+author: Jason Tian
 ---
 
 A sample article tutorial by Jason Tian
@@ -27,7 +28,9 @@ A sample article tutorial by Jason Tian
 
 **categories:** please have either 'Report' or 'Thought Piece'. I included both for testing lol.
 
-**tags:** please have topics related to article. Choose a **MAXIMUM OF FIVE**, one per line
+**tags:** please have topics related to article. Choose a **MAXIMUM OF THREE**, one per line
+
+**author:** your full name
 
 
 

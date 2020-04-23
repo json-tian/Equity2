@@ -4,7 +4,7 @@ layout: archive
 
 {{ content }}
 
-<ul class="taxonomy__index">
+<ul class="taxonomy__index" style="margin-bottom:100px;">
   {% assign postsInYear = site.posts | group_by_exp: 'post', 'post.date | date: "%Y"' %}
   {% for year in postsInYear %}
 	{% assign count = 0 %}

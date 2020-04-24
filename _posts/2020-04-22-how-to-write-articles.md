@@ -5,12 +5,10 @@ header:
   overlay_image: /assets/images/overlay.png
 last_modified_at: 2020-04-22
 categories:
-  - Report
   - Thought Piece
 tags:
   - Amazon
   - Oil
-  - Stonks
 author: Jason Tian
 ---
 

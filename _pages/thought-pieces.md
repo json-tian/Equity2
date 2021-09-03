@@ -1,7 +1,7 @@
 ---
 layout: pieces
 title: "Thought Pieces"
-permalink: /thought-pieces/
+permalink: /thoughtpieces/
 ---
 
 Join us in a quick discussion about world issues

@@ -1,1 +1,1 @@
-# Research-Hotspot
+# Equity Lighthouse

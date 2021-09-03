@@ -17,11 +17,11 @@ minimal_mistakes_skin    : "default"
 
 # Site Settings
 locale                   : "en-US"
-title                    : "Research Hotspot"
+title                    : "Equity Lighthouse"
 title_separator          : "-"
 subtitle                 : # site tagline that appears below site title in masthead
-name                     : "Research Hotspot"
-description              : "Research Hotspot is a student run investment blog at University of Toronto."
+name                     : "Equity Lighthouse"
+description              : "Equity Lighthouse is a student run investment blog at University of Toronto."
 url                      : # the base hostname & protocol for your site e.g. "https://mmistakes.github.io"
 baseurl                  : # the subpath of your site, e.g. "/blog"
 repository               : # GitHub username/repo-name e.g. "mmistakes/minimal-mistakes"
@@ -94,9 +94,9 @@ analytics:
 
 # Site Author
 author:
-  name             : "Research Hotspot"
+  name             : "Equity Lighthouse"
   avatar           : # path of avatar image, e.g. "/assets/images/bio-photo.jpg"
-  bio              : "Research Hotspot is a student run investment blog at University of Toronto. Please stay tuned for updates"
+  bio              : "Equity Lighthouse is a student run investment blog at University of Toronto. Please stay tuned for updates"
   location         : "Toronto"
   email            :
   links:

@@ -11,6 +11,8 @@
 {% endif %}
 
 <div class="{{ include.type | default: "list" }}__item">
+ <!--<img src={{ post.header.original | relative_url }} style="width: 60%; border: 2px solid;"></img>-->
+
   <article class="archive__item" itemscope itemtype="https://schema.org/CreativeWork">
     {% if include.type == "grid" and teaser %}
       <div class="archive__item-teaser">
@@ -24,10 +26,13 @@
         <a href="{{ post.url | relative_url }}" rel="permalink">{{ title }}</a>
       {% endif %}
     </h2>
-    {% if post.read_time %}
+	    {% if post.read_time %}
       <p class="page__meta"><i class="far fa-clock" aria-hidden="true"></i> {% include read-time.html %}</p>
     {% endif %}
-    {% if post.excerpt %}<p class="archive__item-excerpt" itemprop="description">{{ post.excerpt | markdownify | strip_html | truncate: 160 }}</p>{% endif %}
+			    {% if post.last_modified_at %}
+      <p class="page__meta"><i class="far fa-calendar" aria-hidden="true"></i> {{ post.last_modified_at | date: "%B %d, %Y"}}</p>
+    {% endif %}	
+    {% if post.customExcerpt %}<p class="archive__item-excerpt" itemprop="description">{{ post.customExcerpt | markdownify | strip_html | truncate: 160 }}</p>{% endif %}
 
 {% case site.tag_archive.type %}
   {% when "liquid" %}

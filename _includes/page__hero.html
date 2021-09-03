@@ -28,12 +28,16 @@
       </h1>
       {% if page.tagline %}
         <p class="page__lead">{{ page.tagline | markdownify | remove: "<p>" | remove: "</p>" }}</p>
-      {% elsif page.header.show_overlay_excerpt != false and page.excerpt %}
-        <p class="page__lead">{{ page.excerpt | markdownify | remove: "<p>" | remove: "</p>" }}</p>
+      {% elsif page.header.show_overlay_excerpt != false and page.hook %}
+        <p class="page__lead">{{ page.hook | markdownify | remove: "<p>" | remove: "</p>" }}</p>
+      {% endif %}
+	  	  {% if page.last_modified_at %}
+        <h2 class="page__meta">{{ page.last_modified_at | date: "%B %d, %Y" }}</h2>
       {% endif %}
       {% if page.read_time %}
-        <p class="page__meta"><i class="far fa-clock" aria-hidden="true"></i> {% include read-time.html %}</p>
+        <p class="page__meta"><i class="far fa-clock" aria-hidden="true"></i>{% include read-time.html %}</p>
       {% endif %}
+
       {% if page.header.cta_url %}
         <p><a href="{{ page.header.cta_url | relative_url }}" class="btn btn--light-outline btn--large">{{ page.header.cta_label | default: site.data.ui-text[site.locale].more_label | default: "Learn More" }}</a></p>
       {% endif %}

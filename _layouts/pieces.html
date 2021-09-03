@@ -9,7 +9,7 @@ layout: archive
   {% for year in postsInYear %}
 	{% assign count = 0 %}
 	{% for post in year.items %}
-      {% if post.categories contains "Thought Piece" %}
+      {% if post.categories contains "ThoughtPiece" %}
 	    {% assign count = count | plus: 1 %}
 	  {% endif %}
 	{% endfor %}
@@ -27,7 +27,7 @@ layout: archive
 {% for year in postsByYear %}
 	{% assign count = 0 %}
 	{% for post in year.items %}
-      {% if post.categories contains "Thought Piece" %}
+      {% if post.categories contains "ThoughtPiece" %}
 	    {% assign count = count | plus: 1 %}
 	  {% endif %}
 	{% endfor %}
@@ -36,7 +36,7 @@ layout: archive
     <h2 class="archive__subtitle">{{ year.name }}</h2>
     <div class="entries-{{ page.entries_layout | default: 'list' }}">
       {% for post in year.items %}
-		{% if post.categories contains "Thought Piece" %}
+		{% if post.categories contains "ThoughtPiece" %}
         {% include archive-single.html type=page.entries_layout %}
 		{% endif %}
       {% endfor %}
